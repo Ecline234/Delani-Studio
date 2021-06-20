@@ -8,7 +8,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#dev").click(function(){
         $(".dev-hidden").toggle();
-        $("#two").toggle();
+        $("#modifiedtwo").toggle();
     });
 });
 
