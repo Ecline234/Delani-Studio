@@ -6,7 +6,7 @@
     color: white;
     padding-top: 160px;
     padding-bottom: 100px;
-    height: 800px;
+    /* height: 800px; */
 }
 
 .about {
@@ -44,4 +44,21 @@
     text-align: center;
     margin-bottom: 10px;
     padding-bottom: 20px;
+}
+
+.heading2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.design-hidden{
+    display: none;
+}
+
+.port1 {
+    margin-bottom: 40px;
+    margin-right: 40px;
+    padding-left: 30px;
+    scrollbar-gutter: 30px;
 }
