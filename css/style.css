@@ -56,6 +56,13 @@
     display: none;
 }
 
+.dev-hidden {
+    display: none;
+}
+
+.project-hidden {
+    display: none;
+}
 .port1 {
     margin-bottom: 40px;
     margin-right: 40px;
