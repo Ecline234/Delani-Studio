@@ -1,3 +1,6 @@
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 .intro {
     background-image: url(/images/backgrounds/h_img.jpg);
     background-repeat: no-repeat;
@@ -94,4 +97,19 @@
     margin-top: 10px;
     margin-right: 300px;
     border-radius: 0px;
+}
+#button{
+    align-content: center;
+    margin-top: 5px;
+}
+.btn{
+    color: white;
+    border-radius: 20px;
+}
+#floatingTextarea2::placeholder {
+    color: white;
+}
+@media  and (max-width: 800px) {
+    body, .contact
+    
 }
