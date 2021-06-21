@@ -9,9 +9,10 @@
 
         <link rel="stylesheet" href="css/style.css">  
         
-        <script src="js/jquery-3.6.0.js"></script>
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Stint+Ultra+Condensed">
         
-        <script src="js/script.js"></script>
+        <script src="js/jquery-3.6.0.js"></script>
+      
 
         <title>Delani Studio</title>
 </head>
@@ -87,26 +88,58 @@
     <div class="heading2">
       <h2>PORTFOLIO</h2>
     </div>
-
-    <div class="container">
-      <div class="row row-cols-4">
-        <div class="col"><img src="/images/portfolio/work4.jpg" alt=""></div>
-        <div class="col"> <img src="/images/portfolio/work3.jpg" alt=""></div>
-        <div class="col" class="port"><img src="/images/portfolio/work2.jpg" alt=""></div>
-        <div class="col" class="port1"> <img src="/images/portfolio/work1.jpg" alt=""></div>
-      </div>
-    </div> <br>
-    <div class="container">
-      <div class="row row-cols-4">
-        <div class="col"><img src="/images/portfolio/work5.jpg" alt=""></div>
-        <div class="col"> <img src="/images/portfolio/work6.jpg" alt=""></div>
-        <div class="col" class="port"><img src="/images/portfolio/work7.jpg" alt=""></div>
-        <div class="col" class="port1"> <img src="/images/portfolio/work8.jpg" alt=""></div>
+    <div class="container" id="portfolio">
+      <div class="row g-3 p-2 px-2">
+        <div class="col-md-3">
+          <img src="/images/portfolio/work4.jpg" alt="work4">
+          <p class="p-hide">Black Card</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/images/portfolio/work3.jpg" alt="work3">
+          <p class="p-hide">Mighty Ontario</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/images/portfolio/work2.jpg" alt="work2">
+          <p class="p-hide">Orange Card</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/images/portfolio/work1.jpg" alt="work1">
+          <p class="p-hide">Jim Carrey</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/images/portfolio/work5.jpg" alt="work5">
+          <p class="p-hide">Good Day</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/images/portfolio/work6.jpg" alt="work6">
+          <p class="p-hide">WordPress</p>
+        </div>
+        <div class="col-md-3">
+          <img src="/images/portfolio/work7.jpg" alt="work7">
+          <p class="p-hide">Burned Logo</p>
+        </div>
+        <div class="col-md-3" id="port">
+          <img class="img1" src="/images/portfolio/work8.jpg" alt="work8">
+          <p class="p-hide">Bailey Wonger</p>
+        </div>
       </div>
     </div>
 
     <div class="contact">
-        <h2>CONTACT US</h2>
+      <h2>CONTACT US</h2>
+      <form class="form-inline">
+        <div class="row ">
+          <div class="col" id="name">
+            <input type="text " class="form-control bg-transparent" placeholder="Name...">
+          </div>
+          <div class="col" id="email">
+            <input type="text" class="form-control bg-transparent" placeholder="Email...">
+          </div>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Your message.." id="floatingTextarea2" style="height: 200px">Your Message here...</textarea>
+        </div>
+      </form>     
     </div>
     <div class="social-icons">
         <i><img src="/images/social_icons/twitter.png" alt=""></i>
@@ -118,7 +151,6 @@
         <i><img src="/images/social_icons/behance.png" alt=""></i>
         <i><img src="/images/social_icons/pinterest.png" alt=""></i>
         <i><img src="/images/social_icons/flickr.png" alt=""></i>
-        <i><img src="/images/social_icons/you_tube.png" alt=""></i>
 
         <div class="footer-copyright "> <br>
 
@@ -127,7 +159,7 @@
         
         </div>
     </div>
-
-
+  
+   <script src="js/script.js"></script>
 </body>
 </html>
