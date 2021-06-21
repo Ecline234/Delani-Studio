@@ -18,3 +18,12 @@ $(document).ready(function(){
         $(".three").toggle();
     });
 });
+
+$(document).ready(function(){
+    $("#port").mouseover(function(){
+        $("#port").show(".p-hide");
+    });
+    $("#port").mouseout(function(){
+        $("#port").hide(".p-hide")
+    });
+});
