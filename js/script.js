@@ -27,3 +27,11 @@ $(document).ready(function(){
         $("#port").hide(".p-hide")
     });
 });
+
+// $(document).ready(function(){
+//     $(".form-inline").submit(function(){
+//         $(".name").append("");
+//         $(".email").append("");
+//         alert("Thankyou + "name"."We have received your message");
+//     })
+// })
