@@ -38,6 +38,7 @@
     margin-top: 50px;
     color: white;
     margin-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .social-icons {
@@ -63,9 +64,34 @@
 .project-hidden {
     display: none;
 }
-.port1 {
-    margin-bottom: 40px;
-    margin-right: 40px;
-    padding-left: 30px;
-    scrollbar-gutter: 30px;
+
+.p-hide {
+    display: none;
+    text-align: center;
+}
+#name {
+    color: white;
+    border-radius: 0px;
+    width: 350px;
+    margin-left: 200px;
+    margin-top: 10px;
+    align-items: center
+}
+#floatingTextarea2 {
+    width: 700px;
+    color: white;
+    background-color: transparent;
+    margin-left: 200px;
+    
+}
+.form-control::placeholder {
+    color: white;
+}
+#email {
+    color: white;
+    width: 350px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-right: 300px;
+    border-radius: 0px;
 }
