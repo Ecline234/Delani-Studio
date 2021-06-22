@@ -3,7 +3,7 @@ Landing page for Delani studio.
 
 ## 06/2021
 
-# By Ecline Jeruto Koech
+* By Ecline Jeruto Koech
 
 ### Description
 This is a landing page of Delani studios,about their services,portfolio and how to contact Delani studios.
