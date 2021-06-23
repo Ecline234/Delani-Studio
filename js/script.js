@@ -23,15 +23,13 @@ $(document).ready(function(){
     $("#port").mouseover(function(){
         $("#port").show(".p-hide");
     });
-    $("#port").mouseout(function(){
-        $("#port").hide(".p-hide")
-    });
+    // $("#port").mouseout(function(){
+    //     $("#port").hide(".p-hide")
+    // });
 });
 
-// $(document).ready(function(){
-//     $("#form").submit(function(event) {
-//         var nameInput = $("input#name")
-//         $(".name").submit("");
-//         alert("Thankyou + "name"."We have received your message");
-//     })
-// })
+$(document).ready(function(){
+    $("#form").submit(function() {
+        alert("Thankyou + "name"."We have received your message");
+    })
+})
