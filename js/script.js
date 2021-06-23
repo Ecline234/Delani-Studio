@@ -19,17 +19,22 @@ $(document).ready(function(){
     });
 });
 
-$(document).ready(function(){
-    $("#port").mouseover(function(){
-        $("#port").show(".p-hide");
-    });
-    // $("#port").mouseout(function(){
-    //     $("#port").hide(".p-hide")
-    // });
-});
-
-$(document).ready(function(){
-    $("#form").submit(function() {
-        alert("Thankyou + "name"."We have received your message");
-    })
+$("#port").hover(function(){
+    $(".p-hide",this).show("slow",);
+}, function(){
+    $(".p-hide",this).hide("slow",)
 })
+
+//
+//     if($"input:first").val()===""){
+//         $("span").text("Thankyou + "" for your message.").show();
+//         return;
+//     }
+
+$("form").submit(function(){
+    var name = document.getElementById("name")
+    var email = document.getElementById("email");
+    var message = document.getElementById("floatingtextarea2");
+    if(name === "" || email===""|| message==="");
+    alert("Thankyou for your message");
+});

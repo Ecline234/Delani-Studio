@@ -57,21 +57,17 @@ body {
     margin-bottom: 20px;
 }
 
-.design-hidden{
-    display: none;
-}
-
-.dev-hidden {
-    display: none;
-}
-
-.project-hidden {
+.design-hidden, .dev-hidden, .project-hidden{
     display: none;
 }
 
 .p-hide {
     display: none;
+    position: relative;
     text-align: center;
+    text-transform: uppercase;
+    text-emphasis: none;
+    justify-content: center;
 }
 #name {
     color: white;
@@ -113,3 +109,7 @@ body {
 /* @media  and (max-width: 800px) {
     body, .contact 
 } */
+
+.p-hide:hover {
+    transform: translateY();
+}
